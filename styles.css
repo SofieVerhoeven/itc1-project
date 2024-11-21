@@ -1,0 +1,112 @@
+/* Standaard lettertype voor de hele pagina */
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+
+/* Algemeen tekstformaat */
+p, a, ul, ol, td, th, input, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Titelstijlen: consistent gemaakt */
+.title, .subtitle, .kamptitle, .txtZwem, .txtKamp, .txtVoetKamp {
+    font-family: inherit;
+    font-weight: bold;
+    color: #0077b6;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+/* Specifieke titelvariaties */
+.title {
+    font-size: 1.5em;
+    border-bottom: 2px dashed #0077b6;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    color: #03045e;
+}
+
+.kamptitle {
+    font-size: 1.5em;
+    color: #00b4d8;
+}
+
+/* Normale tekst */
+.txtNormal {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+
+/* Lijststijlen */
+ul, ol {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+
+/* Linkstijlen */
+a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabellen consistentie */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    color: #333;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Navigatie consistentie */
+.navcontainer a {
+    font-family: inherit;
+    font-size: 14px;
+    color: #fff;
+}
+
+.navcontainer a.active {
+    background-color: #00b4d8;
+    color: #fff;
+}
+
+/* Meldingen (error, notice, success) */
+.error, .notice, .success {
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Overige details */
+footer, header {
+    font-family: inherit;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background-color: #07394f;
+    border-bottom: 2px solid #00b4d8;
+}
